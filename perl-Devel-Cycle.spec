@@ -1,6 +1,6 @@
 Name:           perl-Devel-Cycle
 Version:        1.11
-Release:        12%{?dist}
+Release:        13%{?dist}
 Summary:        Find memory cycles in objects
 License:        GPL+ or Artistic
 Group:          Development/Libraries
@@ -44,6 +44,9 @@ make test
 %{_mandir}/man3/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.11-13
+- Mass rebuild 2013-12-27
+
 * Wed Nov 14 2012 Jitka Plesnikova <jplesnik@redhat.com> - 1.11-12
 - Update dependencies
 - Use DESTDIR rather than PERL_INSTALL_ROOT
